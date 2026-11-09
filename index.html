@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contract Award | استشارات وإسناد حكومي للجمعيات الأهلية</title>
+<meta name="description" content="Contract Award شركة سعودية في الرياض، تقدّم الاستشارات والإسناد الحكومي للجمعيات الأهلية: التأهيل، إعداد العروض، التخطيط، التنفيذ، والتقارير.">
+<meta name="theme-color" content="#17345e">
+<link rel="canonical" href="https://contracta.sa/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:title" content="Contract Award | استشارات وإسناد حكومي للجمعيات الأهلية">
+<meta property="og:description" content="نرافق الجمعيات الأهلية في التأهل للمشاريع الحكومية المسندة وتنفيذها حتى التسليم.">
+<meta property="og:url" content="https://contracta.sa/">
+<link rel="preload" href="assets/Cairo-Variable.woff" as="font" type="font/woff" crossorigin>
+<style>
+@font-face{
+  font-family:"Cairo";
+  src:url("assets/Cairo-Variable.woff") format("woff");
+  font-weight:200 1000;
+  font-style:normal;
+  font-display:swap;
+}
+:root{
+  --navy:#17345e;
+  --navy-deep:#102849;
+  --gold:#b19452;
+  --paper:#ffffff;
+  --mist:#f4f5f8;
+  --ink:#17345e;
+  --text:#3b4a63;
+  --line:#dfe3ea;
+  --wrap:1160px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;
+  font-family:"Cairo",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+  font-size:1.0625rem;
+  line-height:1.95;
+  color:var(--text);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{color:var(--ink);margin:0;font-weight:800;line-height:1.4}
+p{margin:0}
+.wrap{width:min(var(--wrap),100% - 2.5rem);margin-inline:auto}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;inset-inline-start:1rem;top:-4rem;background:var(--navy);color:#fff;padding:.6rem 1rem;z-index:100}
+.skip:focus{top:1rem}
+
+/* الرأس */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.94);
+  backdrop-filter:saturate(1.2) blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;min-height:76px}
+.brand img{height:46px;width:auto}
+.nav{display:flex;align-items:center;gap:2rem;font-weight:600}
+.nav a{text-decoration:none;color:var(--ink);padding:.25rem 0;border-bottom:2px solid transparent}
+.nav a:hover{border-bottom-color:var(--gold)}
+.nav a.btn{color:#fff;border:2px solid var(--navy);padding:.5rem 1.3rem}
+.nav a.btn:hover{border-color:var(--navy-deep)}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  font:inherit;font-weight:700;font-size:1.0625rem;line-height:1.4;
+  padding:.7rem 1.5rem;border-radius:6px;text-decoration:none;
+  border:2px solid var(--navy);background:var(--navy);color:#fff;
+}
+.btn:hover{background:var(--navy-deep);border-color:var(--navy-deep)}
+.btn.ghost{background:transparent;color:var(--navy)}
+.btn.ghost:hover{background:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy-deep);font-weight:800;font-size:1.2rem}
+.btn.gold:hover{background:#c2a666;border-color:#c2a666}
+
+/* الواجهة */
+.hero{position:relative;overflow:hidden;padding:clamp(3.5rem,9vw,7rem) 0 clamp(3.5rem,8vw,6rem)}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:url("assets/pattern.svg") 0 0/260px 130px;
+  -webkit-mask-image:linear-gradient(to right,#000 0%,rgba(0,0,0,.6) 35%,transparent 70%);
+  mask-image:linear-gradient(to right,#000 0%,rgba(0,0,0,.6) 35%,transparent 70%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative}
+.hero h1{font-size:clamp(2.2rem,5.2vw,3.9rem);max-width:15em;letter-spacing:0}
+.hero p.lead{margin-top:1.5rem;max-width:36em;font-size:1.2rem;color:var(--text)}
+.actions{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2.25rem}
+.rule{height:8px;background:var(--gold)}
+
+/* الأقسام */
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+.head{display:grid;gap:.9rem;max-width:40em;margin-bottom:clamp(2rem,5vw,3.5rem)}
+.head h2{font-size:clamp(1.7rem,3.4vw,2.4rem)}
+
+.services ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);column-gap:clamp(2rem,6vw,5rem)}
+.services li{padding:1.6rem 0 1.8rem;border-top:3px solid var(--navy)}
+.services li:nth-child(1),.services li:nth-child(2){border-top-color:var(--gold)}
+.services h3{font-size:1.3rem;margin-bottom:.4rem}
+.services li p{max-width:30em}
+
+.process{background:var(--mist)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;counter-reset:s}
+.steps li{position:relative;padding-top:4.2rem;counter-increment:s}
+.steps li::before{
+  content:counter(s,arabic-indic);
+  position:absolute;top:0;inset-inline-start:0;
+  font-size:3.2rem;font-weight:900;line-height:1;color:var(--gold);
+}
+.steps li::after{content:"";position:absolute;top:1.6rem;inset-inline-start:4rem;inset-inline-end:-1.5rem;height:2px;background:var(--line)}
+.steps li:last-child::after{display:none}
+.steps h3{font-size:1.2rem;margin-bottom:.3rem}
+
+.contact{background:var(--navy);color:#e8edf5;border-top:8px solid var(--gold);padding-bottom:0}
+.contact h2{color:#fff}
+.contact .head p{color:#cfd8e6}
+.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:start}
+.contact dl{margin:0;display:grid;gap:1.3rem}
+.contact dt{font-size:.95rem;color:#b9c5d8;font-weight:600;line-height:1.5}
+.contact dd{margin:0;font-size:1.25rem;font-weight:700;color:#fff}
+.contact dd a{text-decoration:none;border-bottom:2px solid rgba(177,148,82,.7)}
+.contact dd a:hover{border-bottom-color:var(--gold)}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+.contact .cta{display:grid;gap:1.4rem;justify-items:start}
+.contact .cta p{max-width:26em;color:#dbe3ef}
+
+.site-footer{margin-top:clamp(3rem,7vw,5rem);border-top:1px solid rgba(255,255,255,.16);padding:2rem 0 2.2rem}
+.site-footer .wrap{display:flex;flex-wrap:wrap;gap:1.5rem 3rem;align-items:center;justify-content:space-between}
+.site-footer img{height:44px;width:auto}
+.legal{display:flex;flex-wrap:wrap;gap:.3rem 2rem;font-size:.95rem;color:#c3cddd;line-height:1.7}
+.legal b{color:#fff;font-weight:700}
+
+@media (max-width:860px){
+  .nav a:not(.btn){display:none}
+  .services ul{grid-template-columns:1fr}
+  .services li:nth-child(2){border-top-color:var(--navy)}
+  .steps{grid-template-columns:repeat(2,1fr);row-gap:2.5rem}
+  .steps li::after{display:none}
+  .contact-grid{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .brand img{height:38px}
+  .site-header .wrap{min-height:66px}
+  .steps{grid-template-columns:1fr}
+  .btn{width:100%}
+  .nav .btn{width:auto;padding:.55rem 1rem;font-size:1rem}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Contract Award، الصفحة الرئيسية">
+      <img src="assets/logo.svg" alt="Contract Award" width="3500" height="938">
+    </a>
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <a href="#services">خدماتنا</a>
+      <a href="#process">آلية العمل</a>
+      <a href="#contact">تواصل معنا</a>
+      <a class="btn" href="https://wa.me/966530301898">واتساب</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero" id="top">
+    <div class="wrap">
+      <h1>استشارات وإسناد حكومي للجمعيات الأهلية</h1>
+      <p class="lead">نرافق الجمعية منذ تقييم جاهزيتها حتى تسليم المشروع، فتتأهل للمشاريع الحكومية المسندة وتنفّذها وفق متطلبات الجهة.</p>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/966530301898">ابدأ بمحادثة واتساب</a>
+        <a class="btn ghost" href="#services">تعرّف على خدماتنا</a>
+      </div>
+    </div>
+  </div>
+  <div class="rule" aria-hidden="true"></div>
+
+  <section class="services" id="services" aria-labelledby="services-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="services-h">خدماتنا</h2>
+        <p>نغطي رحلة الجمعية مع المشروع الحكومي، من الاستعداد للتقدّم إلى رفع التقارير بعد التنفيذ.</p>
+      </div>
+      <ul>
+        <li>
+          <h3>تأهيل الجمعيات للمشاريع الحكومية</h3>
+          <p>نقيّم جاهزية الجمعية ونسدّ فجوات المتطلبات النظامية والفنية قبل التقدّم للمشاريع المسندة.</p>
+        </li>
+        <li>
+          <h3>إعداد العروض والملفات</h3>
+          <p>نُعدّ العروض الفنية والمالية وملفات التأهيل وفق شروط الجهة المسندة ومتطلباتها.</p>
+        </li>
+        <li>
+          <h3>دراسات الجدوى والتخطيط</h3>
+          <p>ندرس المشروع ونضع الخطط التشغيلية ومؤشرات الأداء التي تدعم قرار الجمعية والجهة المسندة.</p>
+        </li>
+        <li>
+          <h3>إدارة المشاريع وتنفيذها</h3>
+          <p>نتابع الجداول والمخرجات والالتزامات التعاقدية حتى تسليم المشروع.</p>
+        </li>
+        <li>
+          <h3>الحوكمة والامتثال</h3>
+          <p>نبني السياسات واللوائح والإجراءات التي تنظّم عمل الجمعية وتواكب متطلبات الجهات الإشرافية.</p>
+        </li>
+        <li>
+          <h3>التقارير وقياس الأثر</h3>
+          <p>نُعدّ التقارير الدورية للجهة المسندة، ونقيس نتائج المشروع وأثره.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="process" id="process" aria-labelledby="process-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="process-h">كيف نعمل مع الجمعية</h2>
+        <p>أربع مراحل واضحة، ولكل مرحلة مخرجات تتسلّمها الجمعية.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>التشخيص</h3>
+          <p>نفهم وضع الجمعية وجاهزيتها وما تحتاجه للمشروع.</p>
+        </li>
+        <li>
+          <h3>التجهيز</h3>
+          <p>نُعدّ الملفات والعروض والخطط المطلوبة.</p>
+        </li>
+        <li>
+          <h3>التنفيذ</h3>
+          <p>نرافق الفريق ونتابع المخرجات والمواعيد.</p>
+        </li>
+        <li>
+          <h3>التسليم والتقييم</h3>
+          <p>نرفع التقارير ونقيس الأثر ونوثّق الدروس.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div>
+          <div class="head">
+            <h2 id="contact-h">تواصل معنا</h2>
+            <p>أخبرنا عن جمعيتك والمشروع الذي تعمل عليه، وسنرد عليك لتحديد الخطوة التالية.</p>
+          </div>
+          <dl>
+            <div>
+              <dt>الهاتف وواتساب</dt>
+              <dd><a class="ltr" href="tel:+966530301898">+966 53 030 1898</a></dd>
+            </div>
+            <div>
+              <dt>البريد الإلكتروني</dt>
+              <dd><a class="ltr" href="mailto:info@contracta.sa">info@contracta.sa</a></dd>
+            </div>
+            <div>
+              <dt>منصة X</dt>
+              <dd><a class="ltr" href="https://x.com/ContractAward" rel="noopener">@ContractAward</a></dd>
+            </div>
+            <div>
+              <dt>لينكدإن</dt>
+              <dd><a class="ltr" href="https://www.linkedin.com/company/contractaward" rel="noopener">@ContractAward</a></dd>
+            </div>
+            <div>
+              <dt>المقر</dt>
+              <dd>الرياض، المملكة العربية السعودية</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="cta">
+          <p>أسرع طريقة للوصول إلينا هي واتساب. أرسل اسم الجمعية ونبذة عن احتياجها.</p>
+          <a class="btn gold" href="https://wa.me/966530301898">راسلنا على واتساب</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <img src="assets/logo-white.svg" alt="Contract Award" width="3500" height="938">
+        <div class="legal">
+          <span><b>السجل التجاري:</b> <span class="ltr">7052975294</span></span>
+          <span><b>الرقم الضريبي:</b> <span class="ltr">311985927700003</span></span>
+          <span>© 2026 Contract Award</span>
+        </div>
+      </div>
+    </footer>
+  </section>
+</main>
+</body>
+</html>
